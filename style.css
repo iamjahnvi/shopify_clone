@@ -418,3 +418,30 @@ li{
     top :0;
     left:0;
 }
+.below-hero {
+    background-color : black;
+}
+h1{
+    font-family: Shopify Sans, Helvetica, Arial, sans-serif;
+    font-weight:300;
+    font-size:70px;
+    width : 100%;
+    overflow-x: hidden;
+    color:white;
+    display : flex;
+    justify-content : center;
+    margin : 10px;
+}
+.subHeading{
+    color:darkgray;
+    font-family :  Shopify Sans, Helvetica, Arial, sans-serif;
+    font-weight : lighter;
+    padding: 10px 70px 10px 70px;
+    width : 1351px;
+    font-size:50px;
+    overflow-x:hidden;
+    margin : 10px 0px 10px 0px;
+}
+.subHeading:hover{
+    color:aqua;
+}
