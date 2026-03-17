@@ -418,7 +418,7 @@ li{
     top :0;
     left:0;
 }
-.below-hero {
+.hero-2 {
     background-color : black;
 }
 h1{
@@ -442,6 +442,49 @@ h1{
     overflow-x:hidden;
     margin : 10px 0px 10px 0px;
 }
-.subHeading:hover{
-    color:aqua;
+.images img{
+    width : 316.52px;
+    height : 300px;
+    transition : transform 0.3s ease;
+    border-color: white;
+    overflow:hidden;
+    gap:20px;
+
+}
+.images{
+    width : 100%;
+    overflow:hidden;
+    height : 320px;
+}
+.images img:not(:hover){
+    transform : scale(1.1);
+}
+.hero-3{
+    background-color : black;
+}
+.hero-content-2 h1{
+    font-family: Shopify Sans, Helvetica, Arial, sans-serif;
+    font-weight:100;
+    font-size : 60px;
+    height:150px;
+    width : 800px;
+    overflow-x: hidden;
+    color:white;
+    display : flex;
+    justify-content : center;
+    margin : 100px 10px 10px 10px;
+}
+.hero-content-2 p{
+    color:darkgray;
+    font-family :  Shopify Sans, Helvetica, Arial, sans-serif;
+    font-weight : lighter;
+    padding: 30px;
+    font-size:18px;
+    overflow-x:hidden;
+    margin : 100px 10px 10px;
+    width : 500px;
+}
+.hero-content-2{
+    display : flex;
+    gap : 80px;
 }
