@@ -30,9 +30,9 @@ nav{
 button{
     background-color:white;
     color:black;
-    border-radius : 10px;
+    border-radius : 20px;
     font-size:medium;
-    padding:7px;
+    padding:10px;
     border-color:white;
     height:40px;
 }
@@ -465,14 +465,14 @@ h1{
 .hero-content-2 h1{
     font-family: Shopify Sans, Helvetica, Arial, sans-serif;
     font-weight:100;
-    font-size : 60px;
+    font-size : 50px;
     height:150px;
     width : 800px;
     overflow-x: hidden;
     color:white;
     display : flex;
     justify-content : center;
-    margin : 100px 10px 10px 10px;
+    margin : 100px 10px 10px 70px;
 }
 .hero-content-2 p{
     color:darkgray;
@@ -487,4 +487,45 @@ h1{
 .hero-content-2{
     display : flex;
     gap : 80px;
+}
+.shopify-stories img{
+    width : 375px;
+    height : 300px;
+    /* padding:10px; */
+}
+.shopify-stories{
+    display : flex;
+    gap : 60px;
+    width : 100%;
+    justify-content: center;
+}
+.shopify-stories h3{
+    color : white;
+    font-family :  Shopify Sans, Helvetica, Arial, sans-serif;
+    font-size : 20px;
+    margin-bottom:0px;
+}
+.shopify-stories p{
+    color : darkgray;
+    font-family :  Shopify Sans, Helvetica, Arial, sans-serif;
+    font-size : 16px;
+    font-weight :200;
+    margin-top: 5px;
+}
+#mid-button{
+    display : flex;
+    margin : 40px 520px 40px 540px;
+    background-color : black;
+    color : white;
+    border-color: rgb(255, 255, 255);
+    border-radius : 20px;
+    padding : 10px;
+}
+#mid-button:hover{
+    border-color:white;
+}
+#random-line{
+    font-family :  Shopify Sans, Helvetica, Arial, sans-serif;
+    font-size : 18px;
+    color : aqua;
 }
