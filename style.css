@@ -908,11 +908,10 @@ h1{
 .sub-heading-2 p{
     font-family :Shopify Sans, Helvetica, Arial, sans-serif;
     font-weight:lighter;
-
 }
 .aside-vid-content{
     position: relative;
-    margin:0px 0px 0px 0px;
+    margin:0px;
     z-index: 2;   
     /* max-width: 500px; */
     margin-left: auto;
@@ -1164,4 +1163,16 @@ h1{
 .socials-logo{
     margin-left : 170px;
     margin-top : 5px;
+}
+#sell-heroImage{
+    width : 800px;
+    height: 600px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    margin : 50px 300px 50px 300px;
+    background-color: #001A18;
+}
+.sell-body{
+    background-color:#010706;
 }
