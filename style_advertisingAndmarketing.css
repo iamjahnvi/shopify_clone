@@ -1,0 +1,533 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: white;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 0 40px;
+    background-color:white;
+    position: relative;
+    z-index: 10;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* LEFT + RIGHT */
+.left-top {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+.right-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.right-top span{
+    color : black;
+}
+.left-top .right-section-1 h2{
+    font-weight : 500;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-top .box li{
+    color : black;
+}
+.left-top .product-sec-2 h4{
+    color : black;
+}
+.left-top .product-sec-2 p{
+    color : gray;
+}
+.left-top .product-sec-2 .padding-0{
+    display :flex;
+    flex-direction : column;
+    width : 150px;
+}
+/* LOGO */
+img {
+    height: 40px;
+}
+.left-top .card h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight : 500;
+}
+.left.top .right-section-1 .upper-right-1 h4{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight : 300;
+}
+/* NAV LIST */
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0 25px;
+}
+
+li {
+    color: black;
+    padding: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* NAV HOVER FADE */
+.nav-item {
+    transition: opacity 0.3s ease;
+}
+
+ul:hover .nav-item:not(:hover) {
+    opacity: 0.4;
+}
+
+/* BUTTON */
+button {
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 8px 14px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:rgb(189, 184, 184);
+}
+
+/* LOGIN */
+span {
+    color: white;
+}
+
+/* DROPDOWN BASE */
+.dropdown {
+    display: none;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    padding: 20px 40px;
+    gap: 30px;
+}
+
+/* SHOW DROPDOWN */
+.nav-1:hover .dropdown,
+.nav-2:hover .dropdown {
+    display: flex;
+}
+
+/* ARROW */
+.arrow {
+    color : black;
+    display: inline-block;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+}
+
+.nav-1:hover .arrow,
+.nav-2:hover .arrow {
+    transform: rotate(180deg);
+}
+
+/* ---------------- WHY SHOPIFY ---------------- */
+
+/* CARDS */
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    cursor: pointer;
+    width: 250px;
+}
+
+.whyShopifyPhoto {
+    width: 100%;
+    height: 200px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover .whyShopifyPhoto {
+    transform: scale(1.05);
+}
+
+.card h4 {
+    color: black;
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+nav{
+    margin-left : 70px;
+    margin-right : 70px;
+}
+.card p {
+    color: gray;
+    font-size: 14px;
+}
+
+/* RIGHT SIDE */
+.right-section-1 {
+    background: rgba(0, 255, 150, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+}
+
+.right-section-1 h2 {
+    color: #00a86b;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.dropdown-video-1 {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-section-1 p {
+    color: gray;
+    font-size: 14px;
+}
+
+/* ---------------- PRODUCTS ---------------- */
+
+/* STRUCTURE */
+.sections {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.upper-section {
+    display: flex;
+    gap: 30px;
+}
+
+.product-sec-1 {
+    display: flex;
+    gap: 30px;
+}
+
+.product-sec-2 {
+    background: rgba(0, 255, 150, 0.05);
+    padding: 20px;
+    border-radius: 12px;
+    width: 300px;
+}
+
+/* BOX */
+.box {
+    display: flex;
+    flex-direction: column;
+    min-width: 180px;
+}
+
+.box h3 {
+    color: #00a86b;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+/* LIST ITEMS */
+.box li {
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+}
+
+/* HOVER EFFECT */
+.box:hover li {
+    opacity: 0.4;
+}
+
+.box li:hover {
+    opacity: 1;
+}
+
+/* RIGHT VIDEO SECTION */
+.product-sec-2 h4 {
+    color: white;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.product-sec-2 p {
+    color: gray;
+    font-size: 14px;
+}
+
+/* LOWER SECTION */
+.lower-section {
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    gap: 40px;
+}
+
+.footer h3 {
+    color: #00a86b;
+    font-size: 14px;
+}
+
+.footer li {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.footer h4 {
+    color: white;
+    font-size: 14px;
+}
+
+.footer p {
+    color: gray;
+    font-size: 13px;
+}
+.hero-1 .notebook .pg h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight : 400;
+    margin-left : 100px;
+    font-size : 40px;
+    margin-bottom : 0px;
+}
+.hero-1 .notebook .pg h5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left : 100px;
+    font-weight : 500;
+    margin-top : 5px;
+    width : 450px;
+}
+.hero-1 .notebook{
+    margin-top : 150px;
+    display : flex;
+}
+.hero-1 .notebook .pg button{
+    margin-left : 100px;
+}
+.hero-1 .notebook .pg img{
+    margin-left : 200px;
+    width : 500px;
+    height : 400px;
+}
+.hero-1 .button span{
+    color : black;
+}
+.hero-1 .button{
+    margin-top : 50px;
+    display : flex;
+    margin-left : 100px;
+    gap : 270px;
+    font-weight : 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-2 .heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top : 100px;
+}
+.hero-2 .heading h4{
+    font-weight : 500;
+    margin-left : 600px;
+    margin-bottom : 5px;
+}
+.hero-2 .heading h1{
+    margin-left : 395px;
+    width : 550px;
+    font-weight : 400;
+    font-size : 45px;
+    gap : 0px;
+    margin-top : 0px;
+}
+.hero-2 .menu{
+    margin-top : 50px;
+    background-color : #eff4f7;
+    gap : 150px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-2 .menu .menu-item{
+    display : flex;
+    margin-left : 100px;
+}
+.hero-2 .menu .menu-item .menu-img{
+    width : 600px;
+    height : 400px;
+}
+.hero-2 .menu .menu-item .menu-img img{
+    width : 400px;
+    height : 400px;
+}
+.hero-2 .menu .menu-content{
+    margin-top : 100px;
+}
+.hero-2 .menu .menu-content h4{
+    font-weight : 500;
+    margin-bottom : 5px;
+}
+.hero-2 .menu .menu-content h1{
+    font-weight : 400;
+    margin-bottom : 5px;
+    margin-top : 0px;
+}
+.hero-2 .menu .menu-content p{
+    width : 550px;
+}
+.hero-3{
+    margin-left : 100px;
+    /* margin-top : 200px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-3 .menu{
+    display : flex;
+}
+.hero-3 .menu .left{
+    margin-top : 200px;
+}
+.hero-3 .menu .left h4{
+    font-weight : 500;
+    margin-bottom : 0px;
+}
+.hero-3 .menu .left h1{
+    margin-top : 0px;
+    width : 400px;
+    font-weight : 400;
+    font-size : 40px;
+    margin-bottom : 0px;
+}
+.hero-3 .menu .left h5{
+    margin-top : 5px;
+    font-size : 16px;
+    font-weight : 400;
+    width : 450px;
+}
+.hero-3 .menu .right img{
+    margin-top : 50px;
+    width : 500px;
+    height : 500px;
+    margin-left : 200px;
+    margin-top : 100px;
+}
+.hero-4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color : white;
+    background:black;
+    margin-top : 100px;
+    border-radius : 20px;
+}
+.hero-4 .heading h3{
+    font-weight : 400;
+    display : flex;
+    justify-content : center;
+    margin-bottom : 0px;
+}
+.hero-4 .heading h1{
+    display : flex;
+    justify-content : center;
+    margin-top : 0px;
+    font-size : 45px;
+    font-weight : 100;
+}
+.hero-4 .book .page-1 h1{
+    font-size : 24px;
+    margin-left : 100px;
+    font-weight : 200;
+    width : 300px;
+}
+.hero-4 .book .page-1{
+    margin-top : 75px; 
+    margin-bottom : 0px;
+}
+.hero-4 .book .page-1 h5{
+    margin-left : 100px;
+    font-weight : 300;
+    margin-top : 0px;
+    width : 497px;
+}
+.hero-4 .book .page-1 #hero-4-button{
+    border : 2px solid white;
+    margin-left : 100px;
+}
+.hero-4 .book {
+    display : flex;
+}
+.hero-4 .book .page-2 img{
+    width : 400px;
+    height : 500px;
+    margin-left : 100px;
+}
+.hero-5{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-5 .title h4{
+    display : flex;
+    justify-content : center;
+    font-size : 18px;
+    margin-bottom : 0px;
+}
+.hero-5 .title h1{
+    display : flex;
+    justify-content : center;
+    font-size : 35px;
+    margin-top : 0px;
+    font-weight : 400;
+    margin-bottom : 4px;
+}
+.hero-5 .title h5{
+    display : flex;
+    justify-content : center;
+    font-size : 16px;
+    margin-top : 0px;
+    font-weight : 400;
+    margin-left : 300px;
+    margin-right : 300px;
+}
+.hero-5 .menu {
+    display : flex;
+    gap : 100px;
+}
+.hero-5 .title .menu #hero-5-img{
+    margin-left : 100px;
+}
+.hero-5 .title .menu #hero-5-img img{
+    width : 500px;
+    height : 400px;
+}
+.hero-5 .title .menu .list ul{
+    display : flex;
+    flex-direction : column;
+    margin-top : 25px;
+}
+.hero-5 .title .menu .list ul li{
+    display : flex;
+    flex-direction : column;
+    gap : 0px;
+    display : flex;
+    flex-direction: column;
+    align-items : flex-start;
+}
+.hero-5 .title .menu .list ul li h1{
+    margin-bottom : 0px;
+    font-size : 20px;
+    font-weight : 500;
+    margin-left : 0px;
+}
+.hero-5 .title .menu .list ul li h4{
+    font-size : 16px;
+    font-weight : 400;
+    width : 475px;
+    margin-top  : 5px;
+}
