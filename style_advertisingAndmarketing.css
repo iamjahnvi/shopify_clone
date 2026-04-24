@@ -531,3 +531,109 @@ nav{
     width : 475px;
     margin-top  : 5px;
 }
+.hero-6{
+    margin-top : 150px;
+    background-color : black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-6 .heading {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color : black;
+}
+.hero-6 .heading h4{
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    color : white;
+    font-size : 18px;
+    font-weight : 400;
+    padding-top : 20px;
+    margin-bottom : 0px;
+}
+.hero-6 .heading h1{
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    color : white;
+    margin-top : 0px;
+    font-weight : 400;
+    padding-bottom : 20px;
+    font-size : 40px;
+}
+.hero-6 .img-des {
+    display : flex;
+    gap : 20px;
+    background-color : white;
+    margin-left : 100px;
+    margin-right : 100px;
+    border-radius : 10px;
+}
+.hero-6 .img-des img{
+    width : 600px;
+    height : 400px;
+    border-radius : 10px;
+}
+.hero-6 .img-des .des{
+    display : flex;
+    flex-direction : column;
+    margin-top : 50px;
+}
+.hero-6 .img-des .des h1{
+    font-weight : 400;
+    font-size : 34px;
+    margin-bottom : 0px;
+    color : black;
+}
+.hero-6 .img-des .des h5{
+    font-weight : 300;
+    font-size : 16px;
+    margin-left : 35px;
+    margin-top : 0px;
+}
+.hero-6 .img-des .des .box{
+    margin-left : 40px;
+    color : white;
+    background-color : black;
+    width : 46.48px;
+    height : 30px;
+    display : inline-block;
+    padding : 5px 5px;
+    border-radius : 3px;
+}
+.hero-6 .img-des .des button{
+    padding : 14px 14px;
+    width : 200px;
+    margin-left : 40px; 
+}
+.hero-6 .last-list h2{
+    color : white;
+    font-weight : 400;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    padding-top : 20px;
+    font-size : 20px;
+}
+.hero-6 .last-list .ul li {
+    color : white;
+    /* ul is written like this becuase class name is ul */
+}
+.hero-6 .last-list .ul .column {
+    display : flex;
+    flex-direction : column;
+}
+.hero-6 .last-list .ul .up{
+    display : flex;
+}
+.hero-6 .last-list {
+    margin-left : 100px;
+}
+.hero-6 .last-list .ul .column .up li{
+    display : flex;
+    flex-direction : column;
+    background-color : 
+}
+.hero-6 .last-list .ul .column .down li{
+    display : flex;
+    flex-direction : column;
+}
