@@ -631,9 +631,76 @@ nav{
 .hero-6 .last-list .ul .column .up li{
     display : flex;
     flex-direction : column;
-    background-color : 
+    /* background-color : #696969; */
+    background-color : #3B3B3B;
+    border-radius : 10px;
+    margin-top : 0px; 
+    padding-top : 0px;
+}
+.hero-6 .last-list .ul .column .up{
+    gap : 50px;
 }
 .hero-6 .last-list .ul .column .down li{
     display : flex;
     flex-direction : column;
+}
+.hero-6 .last-list .ul .column .up li {
+    display : flex;
+    align-items : flex-start;
+
+}
+.hero-6 .last-list .ul .column .down li {
+    display : flex;
+    align-items : flex-start;
+    border-radius : 20px;
+    width : 520px;
+    padding : 30px 10px;
+}
+.hero-6 .last-list .ul .column .down li h2{
+    margin-bottom : 0px;
+    margin-top : 15px;
+    padding-top : 0px;
+}
+.hero-6 .last-list .ul .column .down li h5{
+    margin-top : 0px;
+    width : 500px;
+    font-weight : 400;
+    font-size : 16px;
+    margin-bottom : 0px;
+}
+.hero-6 .last-list .ul .column .down li h4{
+    margin-top : 5px;
+    margin-bottom : 0px;
+    font-size : 14px;
+    font-weight : 400;
+}
+.hero-6 .last-list .ul .column .up li h2{
+    margin-bottom : 0px;
+    margin-top : 15px;
+    padding-top : 0px;
+}
+.hero-6 .last-list .ul .column .up li h5{
+    margin-top : 0px;
+    width : 500px;
+    font-weight : 400;
+    font-size : 16px;
+    margin-bottom : 0px;
+}
+.hero-6 .last-list .ul .column .up li h4{
+    margin-top : 5px;
+    margin-bottom : 0px;
+    font-size : 14px;
+    font-weight : 400;
+}
+.hero-6 .last-list 
+.last-list .ul{
+    margin-top : 70px;
+}
+.hero-6 .last-list .ul .column .down {
+    background-color :#3B3B3B;
+}
+.hero-6 .last-list .ul .column .down li{
+    border-radius : 10px;
+    margin-top : 0px; 
+    padding-top : 0px;
 }
