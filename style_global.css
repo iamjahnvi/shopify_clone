@@ -442,3 +442,31 @@ nav{
     font-size : 40px;
     font-weight : 400;
 }
+.hero-3 li{
+    display : flex;
+    flex-direction: column;
+}
+.hero-3 li h3{
+    margin-top : 400px;
+    font-weight : 500;
+    margin-bottom : 0px;
+    width : 300px;
+    font-size : 20px;
+}
+.hero-3 li h5{
+    margin-left : 40px;
+    margin-top : 0px;
+    width : 340px;
+    font-weight : 500;
+    color : rgb(82, 76, 76);
+}
+.hero-4{
+    background: linear-gradient(
+        to right,
+      #151620,
+      #2f313d,
+      #151620
+    );
+    color : white;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
