@@ -304,26 +304,6 @@ nav{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero-1 {
     display : flex;
     font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -356,18 +336,162 @@ nav{
 }
 .hero-2{
     font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top : 70px;
 }
 .hero-2 ul{
     display : flex;
-    
+    flex-direction : column;
+    margin-left : 50px;
+}
+.hero-2 ul li .right-img img{
+    width : 550px;
+    height : 325px;
+    border-radius : 10px;
+}
+.hero-2 ul li .right-side{
+    margin-left : 100px;
+}
+.hero-2 ul li .right-side h1{
+    font-size : 40px;
+    font-weight : 400;
+    margin-top : 0px;
+    width  : 450px;
+    margin-bottom : 0px;
 }
 
+.hero-2 ul li .right-side p{
+    font-size : 16px;
+    font-weight : 500;
+    width : 500px;
+    color :rgba(22, 21, 21, 0.651);
+}
+.hero-3 {
+    background-color : black;
+    color : white;
+    overflow-x:hidden;
+    margin-top : 100px;
+    border : 1px solid #2a2a2a;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero-3 h1{
+    font-size : 50px;
+    font-weight : 400;
+    width  : 650px;
+    margin-bottom : 0px;
+    margin-left : 80px;
+}
+.hero-3 ul li{
+    color : white;
+}
+.hero-3 .list-item{
+    display : flex;
+    flex-direction : column;
+}
+.hero-3 ul{
+    display : flex;
+    flex-direction : column;
+    margin-top : 60px;
+    gap : 0px;
+}
+.hero-3 .list-item .x-line{
+    color:rgba(83, 82, 82, 0.651);
+}
+.hero-3 .list-item .inside-listContent{
+    display : flex;
+    gap : 0px;
+}
+.hero-3 .list-item .inside-listContent h2{
+    font-size : 28px;
+    font-weight : 400;
+    width  : 650px;
+    margin-bottom : 0px;
+    margin-left : 50px;
+}
+.hero-3 .list-item .inside-listContent p{
+    font-size : 16px;
+    font-weight : 400;
+    width  : 475px;
+    margin-bottom : 0px;
+    margin-left : 50px;
+}
+.hero-3 .box{
+    display : flex;
+    margin-top : 50px;
+    flex-direction : row;
+    justify-content : center;
+    align-items : center;
+    margin-left : 150px;
+    height : 275px;
+    margin-right : 200px;
+    margin-bottom : 50px;
+    /* border : 1px solid #2a2a2a;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px; */
+    background-color: black;
+}
 
-
-
-
-
-
-
-
-
+.hero-3 .box .left-side img{
+    width : 400px;
+    height : 255px;
+    margin-left : 200px;
+    margin-bottom : 0px;
+    margin-top : 20px;
+}
+.hero-3 .box .right-side h3{
+    font-weight : 500;
+    font-size : 18px;
+    margin-bottom : 0px;
+    color :green;
+}
+.hero-3 .box .right-side h2{
+    font-size : 40px;
+    margin-top : 0px;
+    font-weight : 400;
+    width  : 650px;
+    margin-bottom : 0px;
+}
+.hero-3 .box .right-side p{
+    font-size : 16px;
+    margin-top : 0px;
+    width : 340px;
+}
+.hero-3 .box-2{
+    background: linear-gradient(
+        to right,
+      #151620,
+      #2f313d,
+      #151620
+    );
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    flex-direction : column;
+}
+.hero-3 .box-2 h2{
+    font-weight : 400;
+    font-size : 50px;
+    width : 400px;
+    margin-top : 10px;
+    margin-bottom : 0px;
+}
+.hero-3 .box-2 h5{
+    font-weight : 400;
+    margin-top : 10px;
+    font-size : 18px;
+    margin-bottom : 20px;
+}
+.hero-3 .box-2 button{
+    background-color : white;
+    color : black;
+    width : 120px;
+    height : 45px;
+    margin-top : 0px;
+    padding : 10px;
+    font-weight : bolder;
+}
+footer{
+    background-color : black;
+    color : white;
+}
