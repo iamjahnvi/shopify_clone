@@ -469,4 +469,99 @@ nav{
     );
     color : white;
     font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display : flex;
+    margin-top : 100px;
+    height : 550px;
+}
+.hero-4 .written-portion h2{
+    font-weight : 400;
+    width : 550px;
+    margin-left : 100px;
+    margin-top : 100px;
+}
+.hero-4 .written-portion .author{
+    margin-top : 150px;
+}
+.hero-4 .written-portion .author h4{
+    margin-left : 100px;
+    font-weight : 400;
+    font-size : 20px;
+    margin-bottom : 0px;
+}
+.hero-4 .written-portion .author h5{
+    margin-left : 100px;
+    font-weight : 400;
+    font-size : 16px;
+    margin-top : 10px;
+}
+.hero-4 img{
+    width : 320px;
+    height : 350px;
+    margin-top : 100px;
+    margin-left : 175px;
+    border-radius : 10px;
+}
+.hero-5{
+    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top : 100px;
+}
+.hero-5 h3{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom : 10px;
+}
+.hero-5 h1{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    font-weight : 500;
+    width : 700px;
+    margin-left : 350px;
+    font-size : 40px;
+    margin-top : 0px;
+}
+.hero-5 h5{
+    display : flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction : column;
+    font-weight : 400;
+    font-size : 16px;
+}
+.hero-5 .cards{
+    margin-top : 75px;
+    display : flex;
+    margin-left : 100px;
+    gap : 150px;
+}
+.hero-5 .cards .card img{
+    width : 350px;
+    height : 450px;
+    gap : 20px;
+}
+.hero-5 .cards .card h2{
+    font-weight : 500;
+    margin-bottom : 0px;
+}
+.hero-5 .cards .card .x-line{
+    color :rgb(207, 203, 203);
+}
+.hero-5 .list{
+    margin-top : 200px;
+    background : linear-gradient(
+        to bottom , 
+        white ,
+        rgb(204, 235, 235) , 
+        rgb(187, 233, 233)
+    );
+}
+.hero-5 .list .list-item{
+    display : flex;
+}
+.hero-5 .list .list-item img{
+    width : 700px;
+    height : 600px;
+    margin-left : 80px;
+    margin-bottom : 100px;
 }
