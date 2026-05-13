@@ -552,8 +552,9 @@ nav{
     background : linear-gradient(
         to bottom , 
         white ,
-        rgb(204, 235, 235) , 
-        rgb(187, 233, 233)
+        rgb(178, 212, 212) ,
+        rgb(204, 235, 235) ,
+        white , 
     );
 }
 .hero-5 .list .list-item{
@@ -564,4 +565,8 @@ nav{
     height : 600px;
     margin-left : 80px;
     margin-bottom : 100px;
+}
+.hero-5 .list .list-item .written h1{
+    overflow-x : hidden;
+    margin-left : 0px;
 }
