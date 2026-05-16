@@ -570,3 +570,12 @@ nav{
     overflow-x : hidden;
     margin-left : 0px;
 }
+
+
+.hero-6{
+    height : 100vh;
+    background-size : cover;
+    background-position : center;
+    background-repeat : no-repeat;
+    background-image : url(global-hero-6-background.jpeg);
+}
